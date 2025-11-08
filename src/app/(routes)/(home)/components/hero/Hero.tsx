@@ -5,7 +5,7 @@ import sparkYellow from "../spark-yellow.png"
 const Hero = () => {
   return (
     <div className="max-w-4xl mx-auto my-3">
-      <div className="flex flex-col font-[Dela_Gothic_One] items-center text-6xl text-[#C7CBF6] gap-1">
+      <div className="flex flex-col font-[Dela_Gothic_One] items-center text-6xl text-light-primary gap-1">
         <div className="flex flex-row justify-center">
           <Image
             src={sparkPurple}
