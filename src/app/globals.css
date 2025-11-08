@@ -10,6 +10,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-light-primary: #C7CBF6;
+  --color-yellow: #E9DA8F;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,8 +21,8 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+html, body {
+  font-family: "Darker Grotesque", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
 }
